@@ -6,6 +6,7 @@
   "type": "commonjs",
   "license": "MIT",
   "dependencies": {
+    "@sequelize/core": "alpha",
     "chai": "^4",
     "chai-as-promised": "^7",
     "chai-datetime": "^1",
@@ -13,9 +14,9 @@
     "cross-env": "^7",
     "fs-jetpack": "^4",
     "sequelize": "^6",
-    "@sequelize/core": "alpha",
     "sinon": "^13",
-    "sinon-chai": "^3"
+    "sinon-chai": "^3",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "_test": "ts-node dev/runner.ts",
