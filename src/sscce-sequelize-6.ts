@@ -100,6 +100,7 @@ GrandChildren.belongsTo(Children)
   expect(created).to.not.be.undefined;
   expect(created).to.not.be.null;
   expect(count).to.equal(1);
+  expect(rows.length).to.equal(1);
 }
 
 
