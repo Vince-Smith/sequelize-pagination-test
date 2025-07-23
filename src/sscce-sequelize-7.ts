@@ -22,7 +22,6 @@ export async function run() {
       timestamps: false,
       underscored: true
     },
-    dialect: 'sqlite3'
   });
 
   class Parents extends Model {};
